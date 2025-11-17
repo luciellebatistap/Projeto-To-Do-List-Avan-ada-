@@ -38,5 +38,51 @@ body {
 }
 
 h1 {
-    
+    color: var(--accent-dark);
+    font-weight: 600; /* o quanto a fonte e forte*/
+    font-size: 28px; /*tamanho da fonte*/
+    margin-bottom: 20px; /*afasta o h1 do formulario*/
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+
+}
+
+label {
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+input, textarea, select {
+    background-color: #fff;
+    border: 1px solid var(--border);
+    padding: 8px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+
+}
+
+input:focus,    /*Quando o usuário clica no campo, ele deve ter um feedback visual.*/ 
+textarea:focus,
+select:focus {
+    border-color: var(--accent-dark);
+    outline: 2px solid var(--accent-dark);
+}
+#butonadd {
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#butonadd:hover {
+background-color: var(--accent-dark);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

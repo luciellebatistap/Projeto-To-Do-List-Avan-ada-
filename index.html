@@ -9,27 +9,32 @@
 </head>
 <body>
     <div id="container">
-      <h1> Tarefa do dia </h1>
+      <h1> Minas Tarefas </h1>
       <div id="area">
-
+           <div class="field">
             <label for="taskInput">Título:</label>
-            <input type="text" id="taskInput" placeholder="Digite o título da tarefa..."> <br/><br/>
-
+            <input type="text" id="taskInput" placeholder="Digite o título da tarefa..."> 
+            </div>
+           <div class="field">
             <label for="descricao">Descrição:</label>
-            <textarea id="descricao" placeholder="Digite a descrição da tarefa..." maxlength="400"></textarea><br/><br/>
-
-            <label for="prazo">Prazo:</label>
+            <textarea id="descricao" placeholder="Digite a descrição da tarefa..." maxlength="400"></textarea>
+            </div>
+            <div class="field">
+            <label for="prazo">Data limite:</label>
             <input type="date" id="prazo"> 
-
-            <label for="privacidade">Privacidade:</label>
-            <select id="privacidade">
-                <option value="publico">Público</option>
-                <option value="privado">Privado</option>
-            </select> <br/><br/>
+            </div>
+            <div class="field">
+            <label for="prioridade">Nivel de prioridade:</label>
+            <select id="prioridade">
+                <option value="publico">Urgente</option>
+                <option value="privado">Normal</option>
+                <option value="privado">Baixa</option>
+            </select> 
+            </div>
             <button id="butonadd">Adicionar</button>
 
       </div>
-      <h1>Lista das tarefas</h1>
+      <h1>Minas Pedências</h1>
       <ul id="taskList"></ul>
     </div>
 
