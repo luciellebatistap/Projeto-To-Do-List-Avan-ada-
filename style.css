@@ -4,23 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --bg: #E3F2FD;        /* Fundo calmo e profissional */
+    --card: #FFFFFF;      /* Cartões limpos */
+    --text: #333333;      /* Texto legível e neutro */
+
+    /* Cores baseadas na psicologia do azul */
+    --accent: #1E88E5;        /* Azul principal: confiança e foco */
+    --accent-dark: #0D47A1;   /* Azul escuro: ótimo para hover */
+    --border: #BBDEFB;        /* Azul muito claro para bordas */
+    
+    /* Status e feedback */
+    --success: #43A047;       /* Verde saudável para tarefas concluídas */
+    --danger: #E53935;        /* Vermelho claro para deletar */
+}
 
 body {
-    background-color: #E3F2FD;
+    background-color: var(--bg);
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
-    color: #333333;
+    color:var(--text);
 } 
 
 #container {
     width: 100%;
     max-width: 500px; /*largura maxima*/
-    background-color: #FFFFFF;
-    margin-top: 40px;
-    margin: 0 auto;
+    background-color:var(--card);
+    margin: 40px auto 0 auto;
     padding: 20px 30px; /*da um espeço entre o conteudo e a borda*/
     border-radius:10px;
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); /*sombra*/
 
+}
 
+h1 {
+    
 }
