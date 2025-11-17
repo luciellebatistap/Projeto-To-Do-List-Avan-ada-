@@ -1,0 +1,26 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E3F2FD;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    color: #333333;
+} 
+
+#container {
+    width: 100%;
+    max-width: 500px; /*largura maxima*/
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    margin: 0 auto;
+    padding: 20px 30px; /*da um espeço entre o conteudo e a borda*/
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); /*sombra*/
+
+
+}
